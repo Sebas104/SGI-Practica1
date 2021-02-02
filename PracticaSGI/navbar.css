@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    background: #222;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+header{
+    background: #fff;
+    position: relative;
+    margin: 20px auto;
+    max-width: 1600px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo{
+    float: left;
+    max-height: 1172px;
+    max-width: 80px;
+    margin-left: 0px;
+
+}
+.logo-enlace{
+    left: 0px;
+    background-color: green;
+}
+.logo-busqueda{
+    max-height: 40px;
+    max-width: 80px;
+}
+
+nav{
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    list-style: none;
+}
+
+nav li{
+    display: table-cell;
+    margin-left: 70px;
+    width: 100px;
+    padding: 10px;
+}
+
+nav a{
+    color: #444;
+    text-decoration: none;
+
+}
+.socio{
+    background-color: orange;
+}
+
+.busqueda{
+    content: '/f002';
+}
